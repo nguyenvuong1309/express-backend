@@ -6,7 +6,6 @@ const express = require("express")
 const connectDb = require("./config/dbConnection");
 const errorHandler = require("./middleware/errorHandler");
 const dotenv = require("dotenv").config();
-const serveress = require('serverless-http')
 
 connectDb()
 
